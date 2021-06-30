@@ -1,4 +1,4 @@
-# m.bearlearn
+# m.bear
 
 ## Project setup
 ```
