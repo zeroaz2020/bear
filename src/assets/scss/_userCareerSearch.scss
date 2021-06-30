@@ -1,0 +1,82 @@
+.search__modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	/* flex: none; */
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0 15px;
+}
+
+.modal__contents {
+	background: #fff;
+	width: 100%;
+	z-index: 2;
+	border-radius: 7px;
+	flex-grow: 0;
+
+	.search__work {
+		input {
+			border: none;
+			box-shadow: none;
+		}
+	}
+	p {
+		color: #ff5100;
+		font-size: 1.3rem;
+		text-align: center;
+		padding: 15px 0;
+	}
+	.modal__footer {
+		margin: 20px 0 0;
+		button {
+			border-radius: 0;
+			border-bottom-left-radius: 7px;
+			border-bottom-right-radius: 7px;
+		}
+	}
+	.search__result {
+		padding: 5px 0;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		height: 250px;
+		overflow-y: auto;
+		li {
+			margin: 0 15px;
+			font-size: 1.4rem;
+			line-height: 2.86;
+			color: #2e2e2e;
+		}
+	}
+	.add__company__name {
+		display: flex;
+		align-items: center;
+		margin: 0 15px;
+		input {
+			border: 1px solid #ddd;
+			height: 44px;
+			border-radius: 7px;
+			padding: 10px;
+			outline: none;
+			flex: 1;
+			&::placeholder {
+				color: #aaa;
+			}
+		}
+		button {
+			width: inherit;
+			padding: 9px 11px;
+			border: 1px solid #ff5100;
+			margin: 0 0 0 5px;
+			border-radius: 7px;
+			color: #ff5100;
+			font-size: 1.6rem;
+			font-weight: 500;
+		}
+	}
+}
