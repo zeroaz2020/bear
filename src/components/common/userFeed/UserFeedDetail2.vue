@@ -2,9 +2,7 @@
   <div class="card feed__detail2">
     <div class="feed__info__area2">
       <div class="feed__face">
-        <img
-          src="@/assets/images/img_yun-a-kim.png"
-          alt="김연아" />
+        <img src="@/assets/images/img_yun-a-kim.png" alt="김연아" />
       </div>
       <ul class="feed__info">
         <li>
@@ -23,19 +21,16 @@
         </li>
       </ul>
     </div>
-    <button
-      type="button"
-      class="btn__more2"></button>
+    <button type="button" class="btn__more2"></button>
 
     <div class="feed__sub">
       <img
         class="feed__img"
         src="@/assets/images/img_photo.png"
-        alt="img_dog" />
+        alt="img_dog"
+      />
       <div class="feed__info__detail">
-        <h3 class="feed__info__title">
-          벚꽃이 피는 봄이네요
-        </h3>
+        <h3 class="feed__info__title">벚꽃이 피는 봄이네요</h3>
         <span>2021.03.20</span>
         <div class="tag">
           <span>#봄</span>
@@ -47,26 +42,26 @@
         </div>
         <ul class="feed__info">
           <li>
-            <div class="emoji">
+            <div class="emoji__num">
               <img src="@/assets/images/icon_emoji.png" />
               <img src="@/assets/images/icon_emoji2.png" />
-              10
+              <span>10</span>
             </div>
           </li>
           <li>
             <div class="talk">
-              <span class="icon__talk"></span>코멘트 20
+              <span class="icon__talk"></span>
+              <span>코멘트 20</span>
             </div>
           </li>
           <li>
             <div class="share">
-              <span class="icon__share"></span>공유 10
+              <span class="icon__share"></span>
+              <span>공유 10</span>
             </div>
           </li>
           <li>
-            <button
-              type="button"
-              class="btn__key"></button>
+            <button type="button" class="btn__key"></button>
           </li>
         </ul>
         <UserFeedTalk />
@@ -76,17 +71,11 @@
 </template>
 
 <script>
-import UserFeedTalk from '@/components/common/userFeed/UserFeedTalk';
+import UserFeedTalk from "@/components/common/userFeed/UserFeedTalk";
 
 export default {
-	components : {
-		UserFeedTalk
-	}
-
-}
+  components: {
+    UserFeedTalk,
+  },
+};
 </script>
-
-
-
-
-
