@@ -45,7 +45,7 @@
         <li>
           <img src="@/assets/images/feedWrite_icon_04.png" />
         </li>
-        <li style="border: 1px solid red">교육 (베어런 인증 후 마크 부여)</li>
+        <li style="border: 1px solid red">교육(베어런 인증 후 마크 부여)</li>
       </ul>
       <ul>
         <li>
