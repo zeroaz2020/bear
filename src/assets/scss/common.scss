@@ -2005,6 +2005,10 @@ button {
 	justify-content: flex-end;
 	align-items: center;
 	margin: 15px 0;
+	button {
+		font-size: 1.6rem;
+		font-weight: 500;
+	}
 	.delete_button {
 		width: 54px;
 		height: 35px;
