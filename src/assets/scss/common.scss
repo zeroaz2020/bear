@@ -661,14 +661,14 @@ button {
 						}
 					}
 				}
-
 				.jobstate {
+					display: flex;
+					align-items: center;
 					img {
 						width: 42px;
 						margin-left: 10px;
 					}
 				}
-
 				.emoji__num {
 					display: flex;
 					align-items: center;
@@ -684,7 +684,6 @@ button {
 					}
 					span {
 						min-width: 20px;
-						border: 1px solid #000;
 					}
 				}
 				.friend__num {
@@ -696,7 +695,6 @@ button {
 					}
 					span {
 						min-width: 60px;
-						border: 1px solid #000;
 					}
 				}
 			}
