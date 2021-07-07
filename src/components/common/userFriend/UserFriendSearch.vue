@@ -17,7 +17,7 @@ export default {};
   input {
     width: 100%;
     background: #fff;
-    box-shadow: inset 0 0 0 1px transparent;
+    box-shadow: inset 0 0 0 0 transparent;
     border: 1px solid #ddd;
     border-radius: 7px;
     font-size: 1.4rem;
