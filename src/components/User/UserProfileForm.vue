@@ -2,14 +2,10 @@
   <div class="sub__topBg">
     <ul>
       <li>
-        <img
-          src="@/assets/images/icon_camera.png"
-          alt="icon camera" />
+        <img src="@/assets/images/icon_camera.png" alt="icon camera" />
       </li>
       <li>
-        <img
-          src="@/assets/images/icon_write2.png"
-          alt="icon write" />
+        <img src="@/assets/images/icon_write2.png" alt="icon write" />
       </li>
     </ul>
     <h2>하루에 한 가지씩</h2>
@@ -28,68 +24,57 @@
         <img
           class="icon__edit"
           src="@/assets/images/icon_edit.png"
-          alt="edit" />
+          alt="edit"
+        />
       </li>
+      <li><span>run to</span> 피지컬트레이너 <span>learn</span> 건운사과정</li>
       <li>
-        <span>run to</span> 피지컬트레이너 <span>learn</span> 건운사과정
-      </li>
-      <li>
-        <img src="@/assets/images/icon_b.png" />
-        <img src="@/assets/images/icon_s.png" />
-        <img src="@/assets/images/icon_i.png" />
-        <img src="@/assets/images/icon_t.png" />
-        <img src="@/assets/images/icon_userText.png" />
-        <img src="@/assets/images/icon_emoji.png" />
-        <img src="@/assets/images/icon_emoji2.png" />
-        10
-        <img src="@/assets/images/icon_03.png" />
-        친구 153
+        <div class="badge">
+          <img src="@/assets/images/icon_b.png" />
+          <img src="@/assets/images/icon_s.png" />
+          <img src="@/assets/images/icon_i.png" />
+          <img src="@/assets/images/icon_t.png" />
+        </div>
+        <div class="jobstate">
+          <img src="@/assets/images/icon_userText.png" />
+        </div>
+        <div class="emoji__num">
+          <img src="@/assets/images/icon_emoji.png" />
+          <img src="@/assets/images/icon_emoji2.png" />
+          <span>10</span>
+        </div>
+        <div class="friend__num">
+          <img src="@/assets/images/icon_03.png" />
+          <span>친구 153</span>
+        </div>
       </li>
     </ul>
     <ul class="btn__group">
       <li>
-        <img
-          src="@/assets/images/icon_06.png"
-          alt="" />
+        <img src="@/assets/images/icon_06.png" alt="" />
         메세지
       </li>
       <li>
-        <img
-          src="@/assets/images/icon_03.png"
-          alt="" />
+        <img src="@/assets/images/icon_03.png" alt="" />
         친구요청
       </li>
-      <li class="on">
-        채용프로포즈
-      </li>
+      <li class="on">채용프로포즈</li>
     </ul>
   </div>
-  
-  <!-- tap menu -->  
+
+  <!-- tap menu -->
   <ul class="tap__area">
     <li class="on">
-      <router-link
-        to="/userprofile">
-        프로필
-      </router-link>
+      <router-link to="/userprofile"> 프로필 </router-link>
     </li>
     <li>
-      <router-link
-        to="/userfeed">
-        개인피드
-      </router-link>
+      <router-link to="/userfeed"> 개인피드 </router-link>
     </li>
     <li>
-      <router-link
-        to="/userpalbum">
-        사진첩
-      </router-link>
+      <router-link to="/userpalbum"> 사진첩 </router-link>
     </li>
     <li>
-      <router-link
-        to="/userfriend">
-        친구
-      </router-link>
+      <router-link to="/userfriend"> 친구 </router-link>
     </li>
   </ul>
   <!-- tap menu //-->
@@ -99,14 +84,10 @@
       <h3>현재 관심 분야</h3>
       <div>
         <router-link to="#">
-          <img
-            src="@/assets/images/icon_key_lock.png"
-            alt="lock" />
+          <img src="@/assets/images/icon_key_lock.png" alt="lock" />
         </router-link>
         <router-link to="#">
-          <img
-            src="@/assets/images/icon_edit.png"
-            alt="edit" />
+          <img src="@/assets/images/icon_edit.png" alt="edit" />
         </router-link>
       </div>
     </li>
@@ -147,26 +128,18 @@
     <li>
       <h3>커리어엔진 Overview</h3>
     </li>
-    <li>
-      경력개발한지 <span>256일</span> 이 되었습니다.
-    </li>
-    <li>
-      현재 <span>5회</span> 진행 중입니다.
-    </li>
+    <li>경력개발한지 <span>256일</span> 이 되었습니다.</li>
+    <li>현재 <span>5회</span> 진행 중입니다.</li>
     <li>
       진로 준비율이 <span>80%</span> 입니다.
       <div class="progress__bar__bg">
-        <div
-          style="width: 80%"
-          class="progress__bar"></div>
+        <div style="width: 80%" class="progress__bar"></div>
       </div>
     </li>
     <li>
       목표 달성율이 <span>90%</span> 입니다.
       <div class="progress__bar__bg">
-        <div
-          style="width: 90%"
-          class="progress__bar"></div>
+        <div style="width: 90%" class="progress__bar"></div>
       </div>
     </li>
   </ul>
@@ -184,20 +157,15 @@
       <h3>나를 소개합니다.</h3>
       <div>
         <router-link to="#">
-          <img
-            src="@/assets/images/icon_key_open.png"
-            alt="lock" />
+          <img src="@/assets/images/icon_key_open.png" alt="lock" />
         </router-link>
         <router-link to="#">
-          <img
-            src="@/assets/images/icon_edit.png"
-            alt="edit" />
+          <img src="@/assets/images/icon_edit.png" alt="edit" />
         </router-link>
       </div>
     </li>
     <li>
-      저는 훌륭한 사람입니다. 어디서나 다수가 만족하는 
-      방향으로 성과를 냅니다.
+      저는 훌륭한 사람입니다. 어디서나 다수가 만족하는 방향으로 성과를 냅니다.
     </li>
   </ul>
 
@@ -206,9 +174,7 @@
     <li>
       <h3>경력</h3>
       <router-link to="#">
-        <img
-          src="@/assets/images/icon_plus.png"
-          alt="add" />
+        <img src="@/assets/images/icon_plus.png" alt="add" />
       </router-link>
     </li>
     <li>
@@ -222,16 +188,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -251,16 +213,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -280,9 +238,7 @@
     <li>
       <h3>학력</h3>
       <router-link to="#">
-        <img
-          src="@/assets/images/icon_plus.png"
-          alt="add" />
+        <img src="@/assets/images/icon_plus.png" alt="add" />
       </router-link>
     </li>
     <li>
@@ -296,16 +252,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -324,16 +276,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -352,9 +300,7 @@
     <li>
       <h3>자격</h3>
       <router-link to="#">
-        <img
-          src="@/assets/images/icon_plus.png"
-          alt="add" />
+        <img src="@/assets/images/icon_plus.png" alt="add" />
       </router-link>
     </li>
     <li>
@@ -367,16 +313,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -395,9 +337,7 @@
     <li>
       <h3>프로젝트/수상</h3>
       <router-link to="#">
-        <img
-          src="@/assets/images/icon_plus.png"
-          alt="add" />
+        <img src="@/assets/images/icon_plus.png" alt="add" />
       </router-link>
     </li>
     <li>
@@ -410,16 +350,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -441,16 +377,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -473,9 +405,7 @@
     <li>
       <h3>교육</h3>
       <router-link to="#">
-        <img
-          src="@/assets/images/icon_plus.png"
-          alt="add" />
+        <img src="@/assets/images/icon_plus.png" alt="add" />
       </router-link>
     </li>
     <li>
@@ -488,16 +418,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -518,9 +444,7 @@
     <li>
       <h3>미디어에 소개된 김연아님</h3>
       <router-link to="#">
-        <img
-          src="@/assets/images/icon_plus.png"
-          alt="add" />
+        <img src="@/assets/images/icon_plus.png" alt="add" />
       </router-link>
     </li>
     <li>
@@ -534,16 +458,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -562,16 +482,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -590,18 +506,14 @@
     <li>
       <h3>김연아님의 저술/논문</h3>
       <router-link to="#">
-        <img
-          src="@/assets/images/icon_plus.png"
-          alt="add" />
+        <img src="@/assets/images/icon_plus.png" alt="add" />
       </router-link>
     </li>
     <li>
       <!-- 반복 -->
       <div class="details__area">
         <div class="details">
-          <div class="user_thumbnail_4">
-            논문
-          </div>
+          <div class="user_thumbnail_4">논문</div>
           <ul class="detail__info">
             <li>
               B-CDP를 활용한 체육인<br />
@@ -609,16 +521,12 @@
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -630,25 +538,19 @@
       </div>
       <div class="details__area">
         <div class="details">
-          <div class="user_thumbnail_4">
-            서적
-          </div>
+          <div class="user_thumbnail_4">서적</div>
           <ul class="detail__info">
             <li>
               AI를 활용한 컨텐츠 제작 방법
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
@@ -667,9 +569,7 @@
     <li>
       <h3>SNS</h3>
       <router-link to="#">
-        <img
-          src="@/assets/images/icon_plus.png"
-          alt="add" />
+        <img src="@/assets/images/icon_plus.png" alt="add" />
       </router-link>
     </li>
     <li>
@@ -679,84 +579,58 @@
             <!-- 반복 -->
             <div class="sns__details">
               <div>
-                <img
-                  src="@/assets/images/icon_facebook.png"
-                  alt="facebook" />
-                <router-link
-                  to="#"
-                  target="_blank">
+                <img src="@/assets/images/icon_facebook.png" alt="facebook" />
+                <router-link to="#" target="_blank">
                   https://www.facebook.com/bearun
                 </router-link>
               </div>
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
             </div>
             <div class="sns__details">
               <div>
-                <img
-                  src="@/assets/images/icon_insta.png"
-                  alt="instagram" />
-                <router-link
-                  to="#"
-                  target="_blank">
+                <img src="@/assets/images/icon_insta.png" alt="instagram" />
+                <router-link to="#" target="_blank">
                   https://www.instagram.com/bearun
                 </router-link>
               </div>
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>
             </div>
             <div class="sns__details">
               <div>
-                <img
-                  src="@/assets/images/icon_kakao.png"
-                  alt="facebook" />
-                <router-link
-                  to="#"
-                  target="_blank">
-                  bearun
-                </router-link>
+                <img src="@/assets/images/icon_kakao.png" alt="facebook" />
+                <router-link to="#" target="_blank"> bearun </router-link>
               </div>
               <ul class="edit__area">
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_key_open.png"
-                      alt="add" />
+                    <img src="@/assets/images/icon_key_open.png" alt="add" />
                   </router-link>
                 </li>
                 <li>
                   <router-link to="#">
-                    <img
-                      src="@/assets/images/icon_edit.png"
-                      alt="edit" />
+                    <img src="@/assets/images/icon_edit.png" alt="edit" />
                   </router-link>
                 </li>
               </ul>

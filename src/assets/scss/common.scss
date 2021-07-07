@@ -646,31 +646,57 @@ button {
 			&:nth-of-type(3) {
 				display: flex;
 				justify-content: center;
-				align-items: center;
+				align-items: flex-end;
 				font-size: 13px;
-				padding: 5px 0 0;
-				& img {
-					width: 22px;
-					margin: 0 3px 0 0;
-					&:nth-of-type(4) {
-						margin: 0;
+				margin: 5px 0 0;
+				.badge {
+					display: flex;
+					align-items: center;
+					img {
+						width: 22px;
+						margin: 0 3px 0 0;
+
+						&:last-of-type {
+							margin: 0;
+						}
 					}
-					&:nth-of-type(5) {
+				}
+
+				.jobstate {
+					img {
 						width: 42px;
-						margin-left: 15px;
+						margin-left: 10px;
 					}
-					&:nth-of-type(6) {
-						margin-left: 15px;
+				}
+
+				.emoji__num {
+					display: flex;
+					align-items: center;
+					margin-left: 15px;
+					img {
 						margin-right: 5px;
 						width: 17px;
+
+						&:last-of-type {
+							margin-right: 6px;
+							width: 17px;
+						}
 					}
-					&:nth-of-type(7) {
-						margin-right: 6px;
-						width: 17px;
+					span {
+						min-width: 20px;
+						border: 1px solid #000;
 					}
-					&:last-of-type {
+				}
+				.friend__num {
+					display: flex;
+					align-items: center;
+					margin: 0 9px 0 15px;
+					img {
 						width: 15px;
-						margin: 0 9px 0 15px;
+					}
+					span {
+						min-width: 60px;
+						border: 1px solid #000;
 					}
 				}
 			}
